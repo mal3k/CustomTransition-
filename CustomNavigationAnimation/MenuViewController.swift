@@ -23,7 +23,6 @@ class MenuViewController: UIViewController {
         transition.subtype = .fromTop
         self.view.window?.layer.add(transition, forKey: kCATransition)
         self.dismiss(animated: true, completion: nil)
-
     }
 
     /*
